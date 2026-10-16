@@ -1,0 +1,76 @@
+/* Pengaturan dasar untuk seluruh halaman */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* Wadah utama di tengah halaman */
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Teks kecil di atas judul */
+.label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2563eb;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 12px 0;
+}
+
+.intro {
+    font-size: 18px;
+    color: #475569;
+    margin-bottom: 30px;
+}
+
+/* Kotak materi (menerapkan Box Model) */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+/* Tombol */
+button {
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #64748b;
+}
